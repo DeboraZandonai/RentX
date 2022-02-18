@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Rentx",
+    "slug": "rentx",
+    "scheme": "rentx",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "description": "App para aluguel de carros",
+    "githubUrl": "https://github.com/Daniel-Vinicius/Ignite-React-Native/tree/main/03_rentx",
+    "assetBundlePatterns": [
+      "node_modules/@expo/vector-icons/**/*"
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#1b1b1f"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dan.rentx",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.dan.rentx",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1b1b1f"
+      }
+    }
+  }
+}
